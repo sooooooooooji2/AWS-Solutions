@@ -34,7 +34,7 @@ B. Amazon S3 File Gateway를 생성하여 회사의 스토리지 공간을 확�
 C. Amazon FSx for Windows File Server 파일 시스템을 생성하여 회사의 저장소 공간을 확장합니다.
 D. 각 사용자의 컴퓨터에 유틸리티를 설치하여 Amazon S3에 액세스합니다. 7일 후 데이터를 S3 Glacier Flexible Retrieve로 전환하기 위한 S3 Lifecycle 정책을 만듭니다.
 
-#9. A사는 AWS에서 전자 상거래 웹 애플리케이션을 구축하고 있다. 애플리케이션은 처리할 새 주문에 대한 정보를 Amazon API Gateway REST API로 보냅니다. 
+#10. A사는 AWS에서 전자 상거래 웹 애플리케이션을 구축하고 있다. 애플리케이션은 처리할 새 주문에 대한 정보를 Amazon API Gateway REST API로 보냅니다. 
 이 회사는 주문이 접수된 순서대로 처리되도록 하려고 합니다. 이러한 요구사항을 충족하는 솔루션은 무엇입니까?
 A. 응용 프로그램이 주문을 받을 때 API Gateway 통합을 사용하여 Amazon Simple Notification Service(Amazon SNS) 항목에 메시지를 게시합니다. AWS 람다 함수를 항목에 등록하여 처리합니다.
 B. 애플리케이션이 주문을 수신할 때 API 게이트웨이 통합을 사용하여 Amazon SQS(Simple Queue Service) FIFO 큐로 메시지를 보냅니다. 처리를 위해 AWS 람다 함수를 호출하도록 SQS FIFO 대기열을 구성합니다.
